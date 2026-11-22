@@ -1,0 +1,21 @@
+# Local Python and AI runtimes
+.runtime/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# User accounts, uploaded documents, and local configuration
+ai-accelerator/data/
+ai-accelerator/.env
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Build output and temporary files
+dist/
+*.part
+*.log
+.DS_Store
+Thumbs.db
